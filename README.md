@@ -19,13 +19,13 @@ To download and run the script, follow these steps:
 1. Clone the repository using Git:
   <pre>
       <code>
-          git clone https://github.com/your_username/repository-downloader.git
+          git clone https://github.com/DopeySlime/AsyncHasherSRS.git
       </code>
   </pre>
 2. Navigate to the cloned directory:
 <pre>
     <code>
-        cd repository-downloader
+        cd AsyncHasherSRS
     </code>
 </pre>
 3. Install the required dependencies using Poetry:
