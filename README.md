@@ -17,41 +17,29 @@ To run the script, simply clone the repository and run the main.py file.
 ## Installation
 To download and run the script, follow these steps:
 1. Clone the repository using Git:
-  <pre>
-      <code>
-          git clone https://github.com/DopeySlime/AsyncHasherSRS.git
-      </code>
-  </pre>
+```shell
+git clone https://github.com/your_username/repository-downloader.git
+```
 2. Navigate to the cloned directory:
-<pre>
-    <code>
-        cd AsyncHasherSRS
-    </code>
-</pre>
+```shell
+cd repository-downloader
+```
 3. Install the required dependencies using Poetry:
-<pre>
-    <code>
-        poetry install
-    </code>
-</pre>
+```shell
+poetry install
+```
 4. Run the main script:
-<pre>
-    <code>
-        poetry run main.py
-    </code>
-</pre>
+```shell
+poetry run main.py
+```
 
 ## Testing
 This repository has unit tests written with Pytest, which can be run with Poetry:
-<pre>
-    <code>
-        poetry run pytest
-    </code>
-</pre>
+```shell
+poetry run pytest
+```
 The test coverage can also be checked using coverage:
-<pre>
-    <code>
-        poetry run coverage run -m pytest
-        poetry run coverage report -m
-    </code>
-</pre>
+```shell
+poetry run coverage run -m pytest
+poetry run coverage report -m
+```
